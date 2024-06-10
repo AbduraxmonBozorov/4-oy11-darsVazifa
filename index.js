@@ -43,12 +43,55 @@
 // }
 // getCharCodes("salom")
 
-
-
-
 // Stringlarda `slice`, `substring`, va `substr` metodlariga oid 7 ta masala funksiyalar bilan ishlaydigan qilib tuzilgan shartlari:
 
 // 1-masala
-function getFirstThreeChars(str){
-    
+// function getFirstThreeChars(str){
+//     let str1=str.slice(0, 3);
+//     return str1;
+// }
+// console.log(getFirstThreeChars('salom'));
+
+// 2-masala
+// function getLastFiveChars(str){
+//     let str1=str.slice(str.length-5);
+//     return str1;
+// }
+// console.log(getLastFiveChars("assalomu"));
+
+// 3-masala
+// function getMiddleChars(str) {
+//   let str1=str.substring(str.length/2, str.length/2+1);
+//   return str1;
+// }
+// console.log(getMiddleChars("salom"));
+
+
+// 4-masala
+// function getThreeCharsFromFifthIndex(str){
+//     let a=str.substr(5, 3);
+//     return a;
+// }
+// console.log(getThreeCharsFromFifthIndex("assalomu aleykum"));
+
+// 5-masala
+// function getFirstTenChars(str){
+//     let a=str.substring(0, 11);
+//     return a;
+// }
+// console.log(getFirstTenChars("assalomu aleykum"));
+
+
+// 6-masala
+// function getLastThreeChars(str){
+//     let a=str.slice(str.length-3, str.length);
+//     return a;
+// }
+// console.log(getLastThreeChars("Assalomu aleykum"));
+
+// 7-masala
+function getSubstringFromSecondIndex(str){
+    let a=str.substring(2, );
+    return a;
 }
+console.log(getSubstringFromSecondIndex("Assalomu aleykum"));
