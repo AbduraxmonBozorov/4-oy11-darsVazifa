@@ -90,8 +90,85 @@
 // console.log(getLastThreeChars("Assalomu aleykum"));
 
 // 7-masala
-function getSubstringFromSecondIndex(str){
-    let a=str.substring(2, );
-    return a;
-}
-console.log(getSubstringFromSecondIndex("Assalomu aleykum"));
+// function getSubstringFromSecondIndex(str){
+//     let a=str.substring(2, );
+//     return a;
+// }
+// console.log(getSubstringFromSecondIndex("Assalomu aleykum"));
+
+
+// Stringlarda `toUpperCase`, `toLowerCase`, `concat`, `trim`, `padStart`, `trimEnd`, va `padEnd` metodlariga oid 10 ta masala funksiyalar bilan ishlaydigan qilib tuzilgan shartlari:
+
+
+// 1-masala
+// function convertToUpperCase(str){
+//     let a=str.toUpperCase();
+//     return a;
+// }
+// console.log(convertToUpperCase("salom"));
+
+// 2-masala
+// function convertToLowerCase(str){
+//     let a=str.toLowerCase();
+//     return a;
+// }
+// console.log(convertToLowerCase("SalOm"));
+
+
+// 3-masala
+// function concatStrings(str1, str2){
+//     let a=str1.concat(str2);
+//     return a;
+// }
+// console.log(concatStrings('Hello', 'World'));
+
+// 4-masala
+// function trimString(str){
+//     let a=str.trim();
+//     return a;
+// }
+// console.log(trimString("    salom   "));
+
+// 5-masala
+// function padStringStart(str, maxLength, padChar){
+//     let a=str.padStart(maxLength, padChar);
+//     return a;
+// }
+// console.log(padStringStart('salom', 10, '*'));
+
+// 6-masala
+// function padStringEnd(str, maxLength, padChar){
+//     let a=str.padEnd(maxLength, padChar);
+//     return a;
+// }
+// console.log(padStringEnd('salom', 10, '*'));
+
+
+// 7-masala
+// function trimEndString(str){
+//     let a=str.trimEnd();
+//     return a;
+// }
+// console.log(trimEndString("Salom    "));
+
+
+// 8-masala
+// function trimStartString(str){
+//     let a=str.trimStart();
+//     return a;
+// }
+// console.log(trimStartString("      Salom    "));
+
+// 9-masala
+// function padStringWithZerosStart(str, maxLength){
+//     let a=str.padStart(maxLength, '0');
+//     return a;
+// }
+// console.log(padStringWithZerosStart("salom", 10));
+
+// 10-masala
+// function padStringWithSpacesEnd(str, maxLength){
+//     let a=str.padEnd(maxLength, " ");
+//     return a;
+// }
+// console.log(padStringWithSpacesEnd("salom", 10));
