@@ -172,3 +172,82 @@
 //     return a;
 // }
 // console.log(padStringWithSpacesEnd("salom", 10));
+
+
+
+// Stringlarda `repeat`, `replace`, `replaceAll`, va `split` metodlariga oid 10 ta masala funksiyalar bilan ishlaydigan qilib tuzilgan shartlari:
+
+
+// 1-masala
+// function repeatString(str, N){
+//     let a=str.repeat(N);
+//     return a;
+// }
+// console.log(repeatString('salom', 3));
+
+
+// 2-masala
+// function replaceAppleWithOrange(str){
+//     str=str.replace('apple', 'orange')
+//     return str;
+// }
+// console.log(replaceAppleWithOrange("salom apple"));
+// 3-masala
+// function replaceFirstSmallAToBigA(str){
+//     let a=str.replace('a', 'A');
+//     return a;
+// }
+// console.log(replaceFirstSmallAToBigA('salom'));
+
+// 4-masala
+// function replaceAllCatsWithDogs(str){
+//     let a=str.replaceAll(/cat/gi, 'dog');
+//     return a;
+// }
+// console.log(replaceAllCatsWithDogs('hello cats. Cat is smile'));
+
+// 5-masala
+// function replaceAllSmallEToBigE(str){
+//     let a=str.replaceAll('e', 'E');
+//     return a;
+// }
+// console.log(replaceAllSmallEToBigE('hello'));
+
+
+// 6-masala
+// function splitBySpaces(str){
+//     let arr=str.split(" ");
+//     return arr;
+// }
+// console.log(splitBySpaces("hello world"));
+
+// 7-masala
+// function splitByCommas(str){
+//     let arr=str.split(",");
+//     return arr;
+// }
+// console.log(splitByCommas("hello,world"));
+
+// 8-masala
+// function splitByEachCharacter(str){
+//     let arr=str.split("");
+//     return arr;
+// }
+// console.log(splitByEachCharacter("hello"));
+
+
+// 9-masala
+// function splitByDelimiter(str, delimiter){
+//     let arr=str.split(delimiter);
+//     return arr;
+// }
+// console.log(splitByDelimiter('hello  world', 'o'));
+
+// 10-masala
+// function processString(str){
+//     let a=str.replaceAll(/a/gi, "*");
+//     let b=a.repeat(3);
+//     let arr=b.split(" ");
+//     return arr;
+// }
+// console.log(processString('Assalomu aleykum'));
